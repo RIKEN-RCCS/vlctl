@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 
     execvp(*command_arg, command_arg);
 
-    /* excecuton failed */
+    /* execution failed */
     perror(*command_arg);
     return 1;
 }
