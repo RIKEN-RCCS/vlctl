@@ -10,4 +10,8 @@ module load lang
 VL=128
 #VL=256
 
+./show_vl
+
 ./vlctl $VL ./show_vl
+
+./show_vl
